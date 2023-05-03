@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our {
+  margin-bottom: 50px;
+  margin-top: 25px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 2px solid red;
+  object-fit: cover;
+}
+.big {
+  padding: 80px;
+  background-color: #87cbb9;
+  text-align: center;
+}
